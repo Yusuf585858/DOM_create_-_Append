@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 10px;
+        background: #3fc5f0;
+        color: #eef5b2;
+    }
+
+    button {
+        padding: 5px;
+        margin: 5px;
+        border-radius: 5px;
+        background: #42dee1;
+        color: #eef5b2;
+        font-weight: bold;
+    }
+
+    output {
+        display: block;
+        padding: 20px;
+        font-weight: bold;
+    }
+</style>
+
+<body>
+    <ul id="myList">
+        <li>Super Mario World</li>
+        <li>The Legend of Zelda</li>
+        <li>Portal 2</li>
+        <li>Tetris</li>
+        <li>Half-Life 2</li>
+        <li>Red Dead Redemption</li>
+        <li>Grand Theft Auto V</li>
+    </ul>
+    <div class="unten">
+        <button id="first"># firstElementChild</button><br>
+        <button id="last"># lastElementChild</button><br>
+        <button id="next"># firstElementChild nextElementSibling</button><br>
+        <button id="pre"># lastElementChild previousElementSibling</button>
+    </div>
+
+    <h1>Output</h1>
+    <output id="output"></output>
+
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
